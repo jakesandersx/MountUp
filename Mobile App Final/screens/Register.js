@@ -18,7 +18,7 @@ export default function Register({navigation}) {
 
   async function onRegister(){
     console.log(await registerUser(firstName, lastName, email, password, verifyPassword, checked, id));
-    updateUser({firstName, lastName, email, password, verifyPassword, checked, id));
+    updateUser({firstName, lastName, email, password, verifyPassword, checked, id});
     navigation.navigate("App")
   }
 

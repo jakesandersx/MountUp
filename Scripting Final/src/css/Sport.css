@@ -1,0 +1,103 @@
+.sport-container{
+    display:flex;
+    justify-content: space-around;
+    gap:20px;
+    background-color: #F2F4F7;
+    padding:20px;
+}
+
+.sport-hero{
+    width:66%;
+    max-height: 700px;
+}
+
+.sport-hero-img{
+    width:100%;
+    height: 500px;
+    margin:0;
+    background-image: url('../images/article1.jpg');
+    background-size: cover
+}
+
+.sport-hero-text{
+    background-color: #fff;
+    padding: 5px;
+}
+
+.sport-standings-container{
+    width:33%;
+    border-left: solid #CED5DF 1px;
+}
+
+.sport-standings-header{
+    padding: 20px;
+}
+
+.sport-standings-header h3{
+    margin-bottom: 10px;
+}
+
+.sport-standings-header{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sport-standings-header select{
+    width:100%;
+    font-size: 20px;
+    text-align: center;
+    padding:10px;
+    outline:none;
+    border: solid #CED5DF 1px;
+}
+
+.sport-standings-container button{
+    width:100%;
+    font-size: 20px;
+    background-color: #007853;
+    border:none;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+    margin: 20px 10px 50px 10px;
+}
+
+/* Table Styles */
+.sport-table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+.sport-table th{
+    background-color: #CED5DF;
+    padding:20px;
+}
+
+.sport-table td{
+    padding:20px;
+    vertical-align: center;
+}
+
+.sport-table tr{
+    border-bottom: solid #CED5DF 1px;
+}
+
+.sport-table-center{
+    text-align: center;
+}
+
+.sport-table-left{
+    text-align: left;
+}
+
+
+.sport-table-logo-container{
+    display:flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.sport-table-logo-container img{
+    width:35px;
+}

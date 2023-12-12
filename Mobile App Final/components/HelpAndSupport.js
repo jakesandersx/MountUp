@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, Linking, StyleSheet } from 'react-native';
+import { useState } from 'react';
 
 function HelpAndSupport() {
     const [modalVisible, setModalVisible] = useState(false);

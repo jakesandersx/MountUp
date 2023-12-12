@@ -1,0 +1,128 @@
+
+/* Basic Nav stylings */
+.navbar {
+  width:100%;
+  position: relative;
+  background-color: #007853;
+  border-bottom: 20px solid #002856;
+  padding: 0 10px;
+}
+
+.nav-link:hover,
+.nav-dropdown-title:hover{
+  background-color:#002856;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.nav-link,
+.nav-dropdown-title{
+  height:100%;
+  padding:10px;
+  color: #fff;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.nav-link-list {
+  list-style: none;
+  display: flex;
+  height: 100%;
+  padding: 10px 10px 0 10px;
+}
+
+/* HCAC LOGO */
+.home-icon {
+  position: absolute;
+  top: 0; 
+  right: 0; 
+}
+
+.home-icon a {
+  display: block;
+}
+
+/* Sports Table Sylings */
+
+.nav-sports-grid{
+  position: absolute;
+  top:100%;
+  display: flex;
+  background-color: #fff;
+  width:75%;
+  justify-content: center;
+  text-decoration: none;
+  padding: 10px;
+  z-index: 1;
+  gap: 20px;
+  box-shadow: #000 1px 1px 5px;
+}
+
+.nav-sports-grid-section{
+  width:50%;
+}
+
+.nav-sports-grid-header{
+  font-weight: bold;
+}
+
+.nav-sports-grid-sport{
+  border-top: 1px solid #CED5DF; 
+  transition: 0.3s;
+  padding: 5px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.nav-sports-grid-quick-links a{
+  color: #707070;
+}
+
+.nav-links-standings{
+  border-left: solid 1px #707070;
+  border-right: solid 1px #707070;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.nav-sports-grid-sport:hover{
+  background-color: #007853;
+}
+
+.nav-sports-grid-link{
+display: block;
+}
+
+.nav-sports-grid-link:hover {
+color: white;
+}
+
+/* Team Table Styling */
+.team-list{
+  position: absolute;
+  top: 100%;
+  background-color: #fff;
+  list-style: none;
+  border-radius: 10px;
+  box-shadow: #000 1px 1px 5px;
+}
+
+.team-link{
+  width:100%;
+  border-bottom: solid 1px #000;
+}
+
+.team-link a{
+  text-decoration: none;
+  margin: 5px;
+  padding: 5px;
+}
+
+.team-link:hover,
+.team-link a:hover{
+  background-color:#007853;
+  transition: 0.3s;
+  color: #fff;
+}

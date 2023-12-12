@@ -1,0 +1,21 @@
+a {
+    font-size: 1.5em;
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #002856;
+    text-decoration: underline;
+}
+
+
+.privacy-header{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.privacy-h3{
+    margin:10px;
+}
